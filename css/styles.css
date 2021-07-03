@@ -1,0 +1,92 @@
+body {
+    margin: 5% auto;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin-top: 25px;
+    font-weight: 900;
+    /* color: #346751; */
+    /* color: #346751; */
+    color: #3A6351;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: x-large;
+}
+
+hr {
+    border-top: none;
+    border-bottom: 1px solid white;
+    width: 20%;
+    margin: 5% auto;
+}
+
+.image-section img {
+    width: 80%;
+    height: 70%
+}
+
+.job-description-title {
+    padding-top: 20px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.job-description-section p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: smaller;
+}
+
+.highlight-section {
+    background-color: #5F939A;
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.highlight-section h2 {
+    padding: 5% 10%;
+    color: #fff;
+    font-weight: 800;
+    font-size: larger;
+    text-align: center;
+}
+
+.contact-section {
+    background-color: #3A6351;
+    color: #fff;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section h2 {
+    font-weight: 900;
+    font-size: large;
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.contact-section p {
+    font-size: small;
+    padding: 0 auto;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.contact-section a {
+    padding-top: 20px;
+}
+
+.contact-section p:last-child {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
